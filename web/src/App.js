@@ -56,6 +56,7 @@ function App() {
               >
               </input>
             </form>
+            <footer>&copy; Todos os direitos reservados a Mário Ponte / Recursos - OpenAI</footer>
           </div>
       </section>
 
