@@ -49,12 +49,18 @@ function App() {
           <div className='chat-input-holder'>
             <form onSubmit={handleSubmit}>
               <input
+                maxLength={150}
                 rows='1'
                 className='chat-input-textarea'
                 value={input}
                 onChange={e =>setInput(e.target.value)}
               >
               </input>
+              <button
+                className='chat-input-btn'
+              >
+                <i className='fa-regular fa-paper-plane'></i>
+              </button>
             </form>
             <footer>&copy; Todos os direitos reservados a Mário Ponte / Recursos - OpenAI</footer>
           </div>

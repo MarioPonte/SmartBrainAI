@@ -65,13 +65,27 @@
 .chat-input-textarea{
   background-color: #1B2430;
   width: 90%;
-  padding: 12px;
+  padding: 12px 22px 12px 22px;
   color:#D6D5A8;
   font-size: 1.5em;
   border-radius: 5px;
   border: none;
   border-color: none;
   margin:12px;
+  outline: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0.25);
+  resize: none;
+}
+
+.chat-input-btn{
+  background-color: #1B2430;
+  width: 8%;
+  padding: 12px 22px 12px 22px;
+  color:#D6D5A8;
+  font-size: 16px;
+  border: none;
+  border-color: none;
+  border-radius: 100vw;
   outline: none;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0.25);
   resize: none;
@@ -124,5 +138,8 @@ footer{
 
 input{
   font-size: 18px !important;
+  border-radius: 100vw !important;
 }
+
+
 
