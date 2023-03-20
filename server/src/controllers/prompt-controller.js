@@ -14,7 +14,7 @@ module.exports = {
 
 			return res.status(200).json({
 				sucess: true,
-				data: /*response.data.choices[0].text*/ "Olá"
+				data: response.data.choices[0].text
 			})
 
 		} catch (error) {
