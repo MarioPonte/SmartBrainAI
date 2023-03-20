@@ -11,6 +11,7 @@
   border-radius: 5px;
   text-align: left;
   transition: ease 0.25 all;
+  cursor: pointer;
 }
 
 .sidemenu-button:hover{

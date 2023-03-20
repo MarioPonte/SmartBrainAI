@@ -5,6 +5,7 @@ import { useState} from 'react';
 import {makeRequest} from './api/api'
 import SideMenu from './components/SideMenu/Sidemenu'
 import ChatMessage from './components/ChatMessage/ChatMessage'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -62,7 +63,8 @@ function App() {
                 <i className='fa-regular fa-paper-plane'></i>
               </button>
             </form>
-            <footer>&copy; Todos os direitos reservados a Mário Ponte / Recursos - OpenAI</footer>
+            
+            <Footer />
           </div>
       </section>
 
